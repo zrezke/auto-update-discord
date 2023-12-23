@@ -2,7 +2,6 @@
 
 # $home_directory  - will be supplied by install.sh
 
-# Check if the actual Discord application is running
 # Directory to search in
 search_directory="$home_directory/.config/discord"
 

@@ -1,0 +1,12 @@
+[Unit]
+Description=Discord updater
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/update-discord.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
